@@ -1,0 +1,45 @@
+.App {
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+.container {
+  text-align: center;
+  color: dark grey;
+}
+body {
+  background-image: url('images/books.jpg');
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: "book antiqua", "georgia";
+  background-size: cover;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  padding: 10px;
+  background:#8B0000;
+  text-align: center;
+  opacity: 0.8;
+}
+.footer p {
+  color: white;
+  font-family: "book antiqua"
+}
+.is-custom-button-social {
+  background-color: transparent;
+  color: rgba(255, 252, 240, .99);
+  border-radius: 50px;
+  border: 2px solid #FFDAB9);
+  transition: all .3s ease-in-out;
+  text-align:right;
+}
+
+.is-custom-button-social:hover {
+  color: rgba(255, 201, 82, .99);
+  border-color: #FFDAB9;
+}
